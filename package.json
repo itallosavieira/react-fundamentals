@@ -6,13 +6,15 @@
   "author": "itallosavieira <itallo.sa.vieira@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "yarn babel src -d build"
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@babel/cli": "^7.23.9",
-    "@babel/core": "^7.23.9",
-    "@babel/preset-env": "^7.23.9",
-    "@babel/preset-react": "7.23.3"
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.1.1"
   },
   "dependencies": {
     "react": "17.0.2",
